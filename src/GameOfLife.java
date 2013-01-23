@@ -168,16 +168,16 @@ public class GameOfLife {
 			for (y=0;y<gridHeight;y++){
 				//COPY-PASTE SYNTHIKES 
 				
-				//ÅÍÁ ÁÓ×ÅÔÏ PATTERN
+				//Î•ÎÎ‘ Î‘Î£Î§Î•Î¤ÎŸ PATTERN
 				//(x%(y+1))==3 || (x%(y+1))==11
 				
-				//ÌÉÁ ÏÑÉÆÏÍÔÉÁ ÃÑÁÌÌÇ 10 ÊÅËÉÙÍ ÓÔÇÍ ÌÅÓÇ 
+				//ÎœÎ™Î‘ ÎŸÎ¡Î™Î–ÎŸÎÎ¤Î™Î‘ Î“Î¡Î‘ÎœÎœÎ— 10 ÎšÎ•Î›Î™Î©Î Î£Î¤Î—Î ÎœÎ•Î£Î— 
 				//y==gridHeight/2 && x>gridWidth/2-10 && x<=gridWidth/2+11
 				
-				//ÅÍÁ ÔÅÔÑÁÃÙÍÏ 20x20 ÓÔÏ ÊÅÍÔÑÏ
+				//Î•ÎÎ‘ Î¤Î•Î¤Î¡Î‘Î“Î©ÎÎŸ 20x20 Î£Î¤ÎŸ ÎšÎ•ÎÎ¤Î¡ÎŸ
 				//y>gridHeight/2-10 && y<=gridHeight/2+10 && x>gridWidth/2-10 && x<=gridWidth/2+10
 				
-				//ÔÕ×ÁÉÁ
+				//Î¤Î¥Î§Î‘Î™Î‘
 				//Math.random()>0.66
 				
 				if (/*>>*/ y>gridHeight/2-10 && y<=gridHeight/2+10 && x>gridWidth/2-10 && x<=gridWidth/2+10 /*<<*/) {
